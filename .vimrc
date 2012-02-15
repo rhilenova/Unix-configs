@@ -38,8 +38,14 @@ set pastetoggle=<F2>
 map <C-m> I/*<ESC>A*/<ESC>
 map <C-A-m> I<DEL><DEL><ESC>A<BS><BS><ESC>
 
+" map a hotkey for wrap/nowrap
+map <F8> :set wrap!<CR>
+
 " map a hotkey for the tabmode cycler
 map <F9> :call TabModeHelper()<CR>
+
+" map a hotkey for "do last macro"
+map <F10> @@
 
 " TabModeHelper: select a tabmode, or create it if first run
 " Cycle through the available tab modes, and call TabModeAbsolute to set the
