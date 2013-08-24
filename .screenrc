@@ -1,0 +1,2 @@
+startup_message off
+stuff "source ~/.bash_profile; TERM=xterm; clear\012"
