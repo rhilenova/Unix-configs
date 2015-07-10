@@ -11,8 +11,6 @@ set incsearch    " do incremental searching
 set mouse=a      " force mouse input to on
 set number       " turn on line numbers
 syntax on        " turn on syntax hilighting
-set background=dark
-colorscheme solarized
 
 " turn on tab complete for commands, with longest complete possible
 set wildmenu
@@ -35,9 +33,13 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'surround.vim'
 Plugin 'python.vim'
 Plugin 'systemverilog.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 filetype plugin indent on
+
+set background=dark
+colorscheme solarized
 
 " vimscript the hard way
 let mapleader=" "
