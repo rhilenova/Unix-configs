@@ -24,7 +24,6 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'AnsiEsc.vim'
-Plugin 'foldlist'
 Plugin 'bufexplorer.zip'
 Plugin 'winmanager'
 Plugin 'linediff.vim'
